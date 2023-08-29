@@ -72,7 +72,8 @@ span {
     display: none;
 }
 
-.btn-primary {
+
+/* .btn-primary {
     background-color: #34A2F1;
     color: white;
     font-family: Poppins;
@@ -84,7 +85,7 @@ span {
 .btn-primary:hover {
     background-color: #2a9aeb;
     color: white;
-}
+} */
 
 .total-div {
     display: flex;
@@ -114,13 +115,13 @@ span {
 }
 
 .justify-content-left {
-    width: 70%;
+    width: 100%;
     justify-content: left;
     align-items: center;
 }
 
 .justify-content-right {
-    width: 30%;
+    /* width: 30%; */
     justify-content: right;
     align-items: center;
 }
@@ -157,6 +158,10 @@ span {
 .accordion-button:not(.collapsed) {
     background-color: transparent;
     box-shadow: none;
+}
+
+.form-check-input {
+    margin-top: 0;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -209,7 +214,8 @@ span {
 
 .full-payment button {
     width: 100%;
-    height: 50px;
+    padding: 12px;
+    /* height: 50px; */
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -227,6 +233,7 @@ span {
 }
 
 .accordion-header label {
+    width: 100%;
     font-family: Poppins;
     font-size: 14px;
     font-weight: 400;
@@ -241,7 +248,8 @@ span {
 
 .authorized button {
     width: 100%;
-    height: 50px;
+    padding: 12px;
+    /* height: 50px; */
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -303,8 +311,9 @@ span {
     border-bottom-right-radius: 12px;
 } */
 
-.total button {
-    display: none;
+
+/* .total button {
+    border: none;
     background-color: #F18234;
     color: #fff;
     font-family: Poppins;
@@ -314,15 +323,27 @@ span {
     line-height: normal;
     padding: 15px 0px 15px 0px;
     border-radius: 5px;
+} */
+
+.pay-button {
     border: none;
-}
-
-.buy-button:hover {
-    background-color: #db762d;
+    background-color: #F18234;
     color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 15px 0px 15px 0px;
+    border-radius: 5px;
 }
 
-.buy-button:focus {
+.pay-button:hover {
+    background-color: #db762d;
+    color: white;
+}
+
+.pay-button:focus {
     outline: none;
     box-shadow: none;
 }
@@ -444,6 +465,10 @@ span {
         border-radius: 12px;
     }
     .full-payment button:not(.collapsed) {
+        background-color: #fff;
+        color: #000;
+    }
+    .authorized button:not(.collapsed) {
         background-color: #fff;
         color: #000;
     }

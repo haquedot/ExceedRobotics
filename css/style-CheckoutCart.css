@@ -72,21 +72,6 @@ span {
     display: none;
 }
 
-
-/* .btn-primary {
-    background-color: #34A2F1;
-    color: white;
-    font-family: Poppins;
-    padding: 12px 32px;
-    border: none;
-    margin-left: -12px;
-}
-
-.btn-primary:hover {
-    background-color: #2a9aeb;
-    color: white;
-} */
-
 .total-div {
     display: flex;
     justify-content: center;
@@ -97,7 +82,6 @@ span {
 
 .total {
     border: 2px solid #F18234;
-    /* border-right: none; */
     border-radius: 8px;
     box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.25);
     background: #FFF;
@@ -121,7 +105,6 @@ span {
 }
 
 .justify-content-right {
-    /* width: 30%; */
     justify-content: right;
     align-items: center;
 }
@@ -129,17 +112,6 @@ span {
 .hide-show {
     display: none;
 }
-
-
-/* .accordion {
-    display: none;
-} */
-
-
-/* .cart-details .collapse:not(.show) {
-    display: flex;
-}
-*/
 
 .cart-content .collapse:not(.show) {
     display: flex;
@@ -180,30 +152,6 @@ span {
     font-size: 14px;
     margin: 0;
 }
-
-
-/* .accordion-button {
-    border: none;
-    background-color: #fff;
-    color: #000025;
-} */
-
-
-/* .accordion-button:not(.collapsed) {
-    border: none;
-    background-color: #000025;
-    color: #fff;
-} */
-
-
-/* .full-payment {
- width: 100%;
-    display: flex;
-    background-color: #FFF;
-    color: #000;
-    border: none;
-    border-radius: 12px;
-} */
 
 .full-payment {
     background-color: #FFF;
@@ -265,65 +213,6 @@ span {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
 }
-
-
-/* .full-payment {
-    background-color: #fff;
-    border-radius: 12px;
-} */
-
-*/
-/* .authorized.collapse-on-sm {
-    display: none;
-}
-
-.authorized .collapse-on-sm.show {
-    display: block;
-    max-height: auto;
-    overflow: hidden;
-    transition: max-height 0.2s ease-out;
-} */
-
-
-/* .authorized .collapsed {
-    width: 100%;
-    display: flex;
-    background-color: #FFF;
-    color: #000;
-    border: none;
-    border-radius: 12px;
-}
-
-.authorized button {
-    width: 100%;
-    display: flex;
-    background-color: #000025;
-    color: #fff;
-    border: none;
-    border-radius: 12px;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-
-.authorized-content {
-    background-color: #fff;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-} */
-
-
-/* .total button {
-    border: none;
-    background-color: #F18234;
-    color: #fff;
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    padding: 15px 0px 15px 0px;
-    border-radius: 5px;
-} */
 
 .pay-button {
     border: none;
